@@ -1,0 +1,38 @@
+SmsProviderInfobipService:
+    Db:
+        LogsConnString:
+            settings-key: SmsProviderInfobipService-LogsConnString
+            types:
+              - AzureTableStorage
+SlackNotifications:
+    AzureQueue:
+        ConnectionString:
+            settings-key: SlackNotificationsConnString
+            types:
+                - AzureTableStorage
+        QueueName:
+            settings-key: SlackQueueName
+MonitoringServiceClient:
+    MonitoringServiceUrl:
+        settings-key: MonitoringServiceUrl
+Infobip:
+    TimeoutMs:
+        settings-key: SmsProviderInfobipService-InfobipTimeoutMS
+    Retries:
+        settings-key: SmsProviderInfobipService-InfobipRetries
+    InfobipApiKey:
+        settings-key: SmsProviderInfobipService-InfobipApiKey
+        types:
+            - Optional
+    FromSender:
+        settings-key: SmsProviderInfobipService-InfobipFromSender
+    ServiceUrl:
+        settings-key: SmsProviderInfobipService-InfobipServiceUrl
+    User:
+        settings-key: SmsProviderInfobipService-InfobipUser
+        types:
+            - Optional
+    Password:
+        settings-key: SmsProviderInfobipService-InfobipPassword
+        types:
+            - Optional
