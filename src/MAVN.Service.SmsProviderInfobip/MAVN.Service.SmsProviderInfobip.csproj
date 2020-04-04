@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="Dockerfile">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Lykke.Sdk" Version="5.14.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\client\Lykke.Service.SmsProviderInfobip.Client\Lykke.Service.SmsProviderInfobip.Client.csproj" />
+    <ProjectReference Include="..\..\client\Lykke.Service.SmsProviderInfobip.InfobipClient\Lykke.Service.SmsProviderInfobip.InfobipClient.csproj" />
+    <ProjectReference Include="..\Lykke.Service.SmsProviderInfobip.MsSqlRepositories\Lykke.Service.SmsProviderInfobip.MsSqlRepositories.csproj" />
+    <ProjectReference Include="..\Lykke.Service.SmsProviderInfobip.Domain\Lykke.Service.SmsProviderInfobip.Domain.csproj" />
+    <ProjectReference Include="..\Lykke.Service.SmsProviderInfobip.DomainServices\Lykke.Service.SmsProviderInfobip.DomainServices.csproj" />
+  </ItemGroup>
+</Project>
