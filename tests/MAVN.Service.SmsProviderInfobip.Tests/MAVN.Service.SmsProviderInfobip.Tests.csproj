@@ -18,8 +18,8 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\client\Lykke.Service.SmsProviderInfobip.Client\Lykke.Service.SmsProviderInfobip.Client.csproj" />
-    <ProjectReference Include="..\..\src\Lykke.Service.SmsProviderInfobip\Lykke.Service.SmsProviderInfobip.csproj" />
-    <ProjectReference Include="..\..\src\Lykke.Service.SmsProviderInfobip.DomainServices\Lykke.Service.SmsProviderInfobip.DomainServices.csproj" />
+    <ProjectReference Include="..\..\client\MAVN.Service.SmsProviderInfobip.Client\MAVN.Service.SmsProviderInfobip.Client.csproj" />
+    <ProjectReference Include="..\..\src\MAVN.Service.SmsProviderInfobip\MAVN.Service.SmsProviderInfobip.csproj" />
+    <ProjectReference Include="..\..\src\MAVN.Service.SmsProviderInfobip.DomainServices\MAVN.Service.SmsProviderInfobip.DomainServices.csproj" />
   </ItemGroup>
 </Project>
