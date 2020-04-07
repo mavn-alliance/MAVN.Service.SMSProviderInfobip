@@ -23,10 +23,10 @@
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\client\Lykke.Service.SmsProviderInfobip.Client\Lykke.Service.SmsProviderInfobip.Client.csproj" />
-    <ProjectReference Include="..\..\client\Lykke.Service.SmsProviderInfobip.InfobipClient\Lykke.Service.SmsProviderInfobip.InfobipClient.csproj" />
-    <ProjectReference Include="..\Lykke.Service.SmsProviderInfobip.MsSqlRepositories\Lykke.Service.SmsProviderInfobip.MsSqlRepositories.csproj" />
-    <ProjectReference Include="..\Lykke.Service.SmsProviderInfobip.Domain\Lykke.Service.SmsProviderInfobip.Domain.csproj" />
-    <ProjectReference Include="..\Lykke.Service.SmsProviderInfobip.DomainServices\Lykke.Service.SmsProviderInfobip.DomainServices.csproj" />
+    <ProjectReference Include="..\..\client\MAVN.Service.SmsProviderInfobip.Client\MAVN.Service.SmsProviderInfobip.Client.csproj" />
+    <ProjectReference Include="..\..\client\MAVN.Service.SmsProviderInfobip.InfobipClient\MAVN.Service.SmsProviderInfobip.InfobipClient.csproj" />
+    <ProjectReference Include="..\MAVN.Service.SmsProviderInfobip.MsSqlRepositories\MAVN.Service.SmsProviderInfobip.MsSqlRepositories.csproj" />
+    <ProjectReference Include="..\MAVN.Service.SmsProviderInfobip.Domain\MAVN.Service.SmsProviderInfobip.Domain.csproj" />
+    <ProjectReference Include="..\MAVN.Service.SmsProviderInfobip.DomainServices\MAVN.Service.SmsProviderInfobip.DomainServices.csproj" />
   </ItemGroup>
 </Project>

@@ -7,6 +7,6 @@
     <PackageReference Include="Lykke.AzureStorage" Version="8.13.4" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lykke.Service.SmsProviderInfobip.Domain\Lykke.Service.SmsProviderInfobip.Domain.csproj" />
+    <ProjectReference Include="..\MAVN.Service.SmsProviderInfobip.Domain\MAVN.Service.SmsProviderInfobip.Domain.csproj" />
   </ItemGroup>
 </Project>
