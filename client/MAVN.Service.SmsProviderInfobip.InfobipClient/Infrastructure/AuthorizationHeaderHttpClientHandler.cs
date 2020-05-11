@@ -2,7 +2,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Lykke.Service.SmsProviderInfobip.InfobipClient.Infrastructure
+namespace MAVN.Service.SmsProviderInfobip.InfobipClient.Infrastructure
 {
     public class AuthorizationHeaderHttpClientHandler : DelegatingHandler
     {

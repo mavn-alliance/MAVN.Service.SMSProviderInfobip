@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace Lykke.Service.SmsProviderInfobip.Settings
+namespace MAVN.Service.SmsProviderInfobip.Settings
 {
     [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
     public class SmsProviderInfobipSettings

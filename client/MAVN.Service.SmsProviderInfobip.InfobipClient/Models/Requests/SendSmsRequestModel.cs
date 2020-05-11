@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace Lykke.Service.SmsProviderInfobip.InfobipClient.Models.Requests
+namespace MAVN.Service.SmsProviderInfobip.InfobipClient.Models.Requests
 {
     /// <summary>
     /// Model used to send SMS

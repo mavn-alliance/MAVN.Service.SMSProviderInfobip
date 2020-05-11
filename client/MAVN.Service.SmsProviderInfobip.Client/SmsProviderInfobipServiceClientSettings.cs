@@ -1,6 +1,6 @@
 using Lykke.SettingsReader.Attributes;
 
-namespace Lykke.Service.SmsProviderInfobip.Client 
+namespace MAVN.Service.SmsProviderInfobip.Client 
 {
     /// <summary>
     /// SmsProviderInfobip client settings.

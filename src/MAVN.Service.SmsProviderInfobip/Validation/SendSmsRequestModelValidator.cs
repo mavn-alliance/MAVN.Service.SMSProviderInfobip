@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 using FluentValidation;
-using Lykke.Service.NotificationSystemBroker.SmsProviderClient;
+using MAVN.Service.NotificationSystemBroker.Contract.SmsProvider;
 
-namespace Lykke.Service.SmsProviderInfobip.Validation
+namespace MAVN.Service.SmsProviderInfobip.Validation
 {
     public class SendSmsRequestModelValidator : AbstractValidator<SendSmsRequestModel>
     {

@@ -1,14 +1,14 @@
 using System.Threading.Tasks;
 using AutoFixture;
 using Lykke.Logs;
-using Lykke.Service.SmsProviderInfobip.DomainServices.Services;
-using Lykke.Service.SmsProviderInfobip.InfobipClient;
-using Lykke.Service.SmsProviderInfobip.InfobipClient.Models.Responses;
+using MAVN.Service.SmsProviderInfobip.DomainServices.Services;
+using MAVN.Service.SmsProviderInfobip.InfobipClient;
+using MAVN.Service.SmsProviderInfobip.InfobipClient.Models.Responses;
 using Moq;
 using Xunit;
-using SendSmsRequestModel = Lykke.Service.SmsProviderInfobip.InfobipClient.Models.Requests.SendSmsRequestModel;
+using SendSmsRequestModel = MAVN.Service.SmsProviderInfobip.InfobipClient.Models.Requests.SendSmsRequestModel;
 
-namespace Lykke.Service.SmsProviderInfobip.Tests
+namespace MAVN.Service.SmsProviderInfobip.Tests
 {
     public class SmsServiceTests
     {

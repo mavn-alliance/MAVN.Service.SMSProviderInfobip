@@ -1,11 +1,11 @@
+using System;
 using JetBrains.Annotations;
 using Lykke.Sdk;
-using Lykke.Service.SmsProviderInfobip.Settings;
+using MAVN.Service.SmsProviderInfobip.Settings;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using System;
 
-namespace Lykke.Service.SmsProviderInfobip
+namespace MAVN.Service.SmsProviderInfobip
 {
     [UsedImplicitly]
     public class Startup

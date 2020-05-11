@@ -1,4 +1,4 @@
-namespace Lykke.Service.SmsProviderInfobip.InfobipClient
+namespace MAVN.Service.SmsProviderInfobip.InfobipClient
 {
     /// <summary>
     /// Infobip API client

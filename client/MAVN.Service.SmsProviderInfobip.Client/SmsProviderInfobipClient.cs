@@ -1,6 +1,6 @@
 using Lykke.HttpClientGenerator;
 
-namespace Lykke.Service.SmsProviderInfobip.Client
+namespace MAVN.Service.SmsProviderInfobip.Client
 {
     /// <summary>
     /// SmsProviderInfobip API aggregating interface.

@@ -1,11 +1,11 @@
 using Autofac;
-using Lykke.Service.SmsProviderInfobip.Domain.Services;
-using Lykke.Service.SmsProviderInfobip.DomainServices.Services;
-using Lykke.Service.SmsProviderInfobip.InfobipClient;
-using Lykke.Service.SmsProviderInfobip.Settings;
 using Lykke.SettingsReader;
+using MAVN.Service.SmsProviderInfobip.Domain.Services;
+using MAVN.Service.SmsProviderInfobip.DomainServices.Services;
+using MAVN.Service.SmsProviderInfobip.InfobipClient;
+using MAVN.Service.SmsProviderInfobip.Settings;
 
-namespace Lykke.Service.SmsProviderInfobip.Modules
+namespace MAVN.Service.SmsProviderInfobip.Modules
 {
     public class ServiceModule : Module
     {

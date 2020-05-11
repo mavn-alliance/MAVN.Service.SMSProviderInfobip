@@ -1,4 +1,4 @@
-namespace Lykke.Service.SmsProviderInfobip.Settings
+namespace MAVN.Service.SmsProviderInfobip.Settings
 {
     public class InfobipSettings
     {
