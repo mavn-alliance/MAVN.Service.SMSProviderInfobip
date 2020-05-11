@@ -1,4 +1,4 @@
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace MAVN.Service.SmsProviderInfobip.InfobipClient.Models.Requests
 {
@@ -27,5 +27,4 @@ namespace MAVN.Service.SmsProviderInfobip.InfobipClient.Models.Requests
         [JsonProperty("text")]
         public string Text { get; set; }
     }
-
 }
