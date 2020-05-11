@@ -1,6 +1,6 @@
 using JetBrains.Annotations;
 
-namespace Lykke.Service.SmsProviderInfobip.Client
+namespace MAVN.Service.SmsProviderInfobip.Client
 {
     /// <summary>
     /// SmsProviderInfobip client interface.

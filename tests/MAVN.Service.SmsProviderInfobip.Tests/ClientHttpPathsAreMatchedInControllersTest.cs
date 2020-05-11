@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Lykke.Service.SmsProviderInfobip.Client;
+using MAVN.Service.SmsProviderInfobip.Client;
 using Microsoft.AspNetCore.Mvc;
 using Refit;
 using Xunit;
 
-namespace Lykke.Service.SmsProviderInfobip.Tests
+namespace MAVN.Service.SmsProviderInfobip.Tests
 {
     public class ClientHttpPathsAreMatchedInControllersTest
     {

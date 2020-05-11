@@ -1,9 +1,7 @@
-using System;
 using Lykke.HttpClientGenerator.Infrastructure;
-using Lykke.HttpClientGenerator.Retries;
-using Lykke.Service.SmsProviderInfobip.InfobipClient.Infrastructure;
+using MAVN.Service.SmsProviderInfobip.InfobipClient.Infrastructure;
 
-namespace Lykke.Service.SmsProviderInfobip.InfobipClient
+namespace MAVN.Service.SmsProviderInfobip.InfobipClient
 {
     /// <summary>
     /// Infobip API client
@@ -71,7 +69,7 @@ namespace Lykke.Service.SmsProviderInfobip.InfobipClient
 
         private void InitializeClient()
         {
-            var clientBuilder = HttpClientGenerator.HttpClientGenerator.BuildForUrl(ServiceUrl)
+            var clientBuilder = Lykke.HttpClientGenerator.HttpClientGenerator.BuildForUrl(ServiceUrl)
                 .WithAdditionalCallsWrapper(new ExceptionHandlerCallsWrapper())
                 .WithoutRetries()
                 .WithAdditionalDelegatingHandler(

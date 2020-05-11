@@ -1,8 +1,8 @@
-using Lykke.Service.NotificationSystemBroker.SmsProviderClient;
+﻿using MAVN.Service.NotificationSystemBroker.SmsProviderClient;
 
-namespace Lykke.Service.SmsProviderInfobip.Domain.Services
+namespace MAVN.Service.SmsProviderInfobip.Domain.Services
 {
-    public interface ISmsService : ISmsProvider
+    public interface ISmsService : ISmsProviderApi
     {
     }
 }

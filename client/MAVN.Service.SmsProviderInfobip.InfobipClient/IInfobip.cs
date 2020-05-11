@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using Lykke.Service.SmsProviderInfobip.InfobipClient.Models.Requests;
-using Lykke.Service.SmsProviderInfobip.InfobipClient.Models.Responses;
+using MAVN.Service.SmsProviderInfobip.InfobipClient.Models.Requests;
+using MAVN.Service.SmsProviderInfobip.InfobipClient.Models.Responses;
 using Refit;
 
-namespace Lykke.Service.SmsProviderInfobip.InfobipClient
+namespace MAVN.Service.SmsProviderInfobip.InfobipClient
 {
     /// <summary>
     /// Interface that describes Infobip SMS client access

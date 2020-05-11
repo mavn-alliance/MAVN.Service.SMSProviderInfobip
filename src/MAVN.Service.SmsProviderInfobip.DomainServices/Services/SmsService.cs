@@ -1,15 +1,15 @@
-using System;
+﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Common.Log;
 using Lykke.Common.Log;
-using Lykke.Service.NotificationSystemBroker.SmsProviderClient;
-using Lykke.Service.NotificationSystemBroker.SmsProviderClient.Enums;
-using Lykke.Service.SmsProviderInfobip.Domain.Services;
-using Lykke.Service.SmsProviderInfobip.InfobipClient;
-using SendSmsRequestModel = Lykke.Service.SmsProviderInfobip.InfobipClient.Models.Requests.SendSmsRequestModel;
+using MAVN.Service.NotificationSystemBroker.SmsProviderClient;
+using MAVN.Service.NotificationSystemBroker.SmsProviderClient.Enums;
+using MAVN.Service.SmsProviderInfobip.Domain.Services;
+using MAVN.Service.SmsProviderInfobip.InfobipClient;
+using SendSmsRequestModel = MAVN.Service.SmsProviderInfobip.InfobipClient.Models.Requests.SendSmsRequestModel;
 
-namespace Lykke.Service.SmsProviderInfobip.DomainServices.Services
+namespace MAVN.Service.SmsProviderInfobip.DomainServices.Services
 {
     public class SmsService : ISmsService
     {

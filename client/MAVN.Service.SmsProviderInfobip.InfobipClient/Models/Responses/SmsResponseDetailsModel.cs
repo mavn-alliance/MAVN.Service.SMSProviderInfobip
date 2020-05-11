@@ -1,4 +1,4 @@
-namespace Lykke.Service.SmsProviderInfobip.InfobipClient.Models.Responses
+namespace MAVN.Service.SmsProviderInfobip.InfobipClient.Models.Responses
 {
     /// <summary>
     /// Model that represents SMS response details

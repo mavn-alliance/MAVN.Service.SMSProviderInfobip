@@ -1,7 +1,7 @@
-using Lykke.Sdk;
 using System.Threading.Tasks;
+using Lykke.Sdk;
 
-namespace Lykke.Service.SmsProviderInfobip
+namespace MAVN.Service.SmsProviderInfobip
 {
     internal sealed class Program
     {

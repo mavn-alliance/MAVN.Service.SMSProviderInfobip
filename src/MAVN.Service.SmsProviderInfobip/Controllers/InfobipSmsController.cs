@@ -1,14 +1,14 @@
-using System.Net;
+﻿using System.Net;
 using System.Threading.Tasks;
-using Lykke.Service.NotificationSystemBroker.SmsProviderClient;
-using Lykke.Service.SmsProviderInfobip.Domain.Services;
+using MAVN.Service.NotificationSystemBroker.SmsProviderClient;
+using MAVN.Service.SmsProviderInfobip.Domain.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Lykke.Service.SmsProviderInfobip.Controllers
+namespace MAVN.Service.SmsProviderInfobip.Controllers
 {
     [Route("/api/")]
     [ApiController]
-    public class InfobipSmsController : Controller, ISmsProvider
+    public class InfobipSmsController : Controller, ISmsProviderApi
     {
         private readonly ISmsService _smsService;
 

@@ -1,6 +1,6 @@
 using Lykke.SettingsReader.Attributes;
 
-namespace Lykke.Service.SmsProviderInfobip.Settings
+namespace MAVN.Service.SmsProviderInfobip.Settings
 {
     public class DbSettings
     {
